@@ -1,0 +1,30 @@
+.right__sidebar{
+  position: sticky;
+  top: 0;
+  height: 100vh;
+
+}
+
+.search-container{
+    background-color: var(--twitter-background);
+    border-radius: 30px;
+    padding: 10px;
+    margin: 5px auto;
+    width: 80%;
+    cursor: pointer;
+    border: 1px solid var(--twitter-background);
+}
+
+.search-container .search-input{
+border: none;
+outline: none;
+font-weight: 500;
+background-color: rgba(0,0,0,0);
+}
+
+.search-container .search-btn .fa{
+    color: rgb (101,119,134);
+    font-size: 16px;
+    margin-right: 5px;
+
+}
