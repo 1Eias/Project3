@@ -1,0 +1,189 @@
+* {
+    font-family: "Segoe UI", sans-serif;
+    color: white;
+    background-color: black;
+}
+
+.login-box {
+    background: black;
+    width: 450px;
+    height: 550px;
+    transform: translate( 180%, 20%);
+
+}
+
+.login-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(0%);
+}
+
+.login-content button img {
+    background: transparent;
+    width: 18px;
+    margin-right: 10px;
+}
+
+.regi-google {
+    color: black;
+    width: 270px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    border-radius: 30px;
+    background: white;
+    border: 1px solid white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.regi-apple {
+    color: black;
+    width: 270px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    border-radius: 30px;
+    background: white;
+    border: 1px solid white;
+    font-weight: 500;
+    cursor: pointer;
+    transform: translateY(-20%);
+}
+
+.login-box hr {
+    border: 0 solid;
+    height: 1px;
+    background: #c2c2c2;
+    margin: 5px;
+    width: 260px;
+}
+
+.login-content span {
+    background: black;
+    padding: 5px;
+    transform: translateY(-80%);
+}
+
+.account-registration {
+    color: white;
+    background-color: #1D9BF0;
+    padding: 5px;
+    width: 250px;
+    height: 40px;
+    border: 2px solid #1D9BF0;
+    border-radius: 15px;
+    font-weight: 700;
+}
+
+.login {
+    background-color: transparent;
+    padding: 5px;
+    width: 250px;
+    height: 40px;
+    border: 2px solid #fff;
+    color: white;
+    border-radius: 15px;
+    font-weight: 700;
+}
+
+.login:hover {
+    color: #1D9BF0;
+    border: 2px solid #1D9BF0;
+}
+
+.login-popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    width: 410px;
+    padding: 30px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+.login-popup-content, form{
+    background: transparent;
+    color: black;
+}
+
+i {
+    background: white;
+    font-size: 35px;
+    font-weight: 600;
+    transform: translateX(530%);
+    color: black;
+}
+
+.login-popup .chirp-login {
+    background: transparent;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+}
+
+input {
+    padding: 10px;
+    width: 300px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(11%);
+}
+
+.login-account {
+    padding: 5px;
+    width: 250px;
+    height: 40px;
+    border: 2px solid black;
+    background: white;
+    color: black;
+    border-radius: 15px;
+    font-weight: 700;
+    transform: translateX(30%);
+}
+
+.forget-password {
+    padding: 5px;
+    width: 250px;
+    height: 40px;
+    border: 2px solid black;
+    background: white;
+    color: black;
+    border-radius: 15px;
+    font-weight: 700;
+    transform: translateX(30%);
+}
+
+p {
+    background: white;
+    color: black;
+
+}
+
+a {
+    text-decoration: none;
+    color: #1D9BF0;
+    background: white;
+
+}
+
+.no-account {
+    width: 300px;
+    transform: translate(25%, 20%);
+}
+
+
+
