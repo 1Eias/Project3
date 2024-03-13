@@ -4,12 +4,17 @@
     background-color: black;
 }
 
+/* Log in */
+
 .login-box {
     background: black;
     width: 450px;
     height: 550px;
     transform: translate( 180%, 20%);
+}
 
+.login-box#blur.active {
+    filter: blur(8px);
 }
 
 .login-content {
@@ -99,6 +104,7 @@
 }
 
 .login-popup {
+    border-radius: 10px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -108,17 +114,47 @@
     padding: 30px;
     box-shadow: 0 0 8px rgba(0,0,0,0.1);
 }
+
+.login-popup .close-btn {
+    background: #ffffff;
+    color: black;
+    font-size: 22px;
+}
+
+#popup {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-40%);
+    width: 410px;
+    padding: 30px;
+    background: white;
+    visibility: hidden;
+    opacity: 1;
+    transition: 0.1s;
+}
+
+#popup.active {
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.login-popup .close-btn:hover {
+    color: #1D9BF0;
+}
+
 .login-popup-content, form{
     background: transparent;
     color: black;
 }
 
-i {
+.login-popup i {
     background: white;
     font-size: 35px;
     font-weight: 600;
-    transform: translateX(530%);
-    color: black;
+    transform: translate(530%,-50%);
+    color: #1D9BF0;
 }
 
 .login-popup .chirp-login {
@@ -127,12 +163,13 @@ i {
     font-weight: 600;
     text-align: center;
     color: black;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
-input {
-    padding: 10px;
-    width: 300px;
+.login-popup input {
+    color: black;
+    padding: 15px;
+    width: 280px;
     background: white;
     border: 2px solid black;
     border-radius: 10px;
@@ -140,7 +177,11 @@ input {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transform: translateX(11%);
+    transform: translateX(14%);
+}
+
+.login-popup input:hover{
+    border: 2px solid #1D9BF0;
 }
 
 .login-account {
@@ -155,6 +196,11 @@ input {
     transform: translateX(30%);
 }
 
+.login-account:hover{
+    border: 2px solid #1D9BF0;
+    color: #1D9BF0;
+}
+
 .forget-password {
     padding: 5px;
     width: 250px;
@@ -167,13 +213,18 @@ input {
     transform: translateX(30%);
 }
 
-p {
+.forget-password:hover {
+    border: 2px solid #e10e0e;
+    color: #e10e0e;
+}
+
+.login-popup p {
     background: white;
     color: black;
 
 }
 
-a {
+.login-popup a {
     text-decoration: none;
     color: #1D9BF0;
     background: white;
@@ -182,8 +233,9 @@ a {
 
 .no-account {
     width: 300px;
-    transform: translate(25%, 20%);
+    transform: translate(27%, 20%);
 }
+
 
 
 
