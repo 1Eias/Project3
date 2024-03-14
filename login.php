@@ -10,7 +10,7 @@
     <title>Inloggen / Chirpify</title>
 </head>
 <body>
-<div class="chirpify" >
+<div class="chirpify">
 <div class="login-box" id="blur">
     <div class="login-content">
         <h1 class="big-login">Nu registreren</h1>
@@ -53,5 +53,4 @@
 </div>
 </div>
 </body>
-
 </html>

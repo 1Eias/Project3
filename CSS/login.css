@@ -7,7 +7,7 @@
 /* Log in */
 
 .login-box {
-    background: black;
+    background: transparent;
     width: 450px;
     height: 550px;
     transform: translate( 180%, 20%);
@@ -198,7 +198,8 @@
 
 .login-account:hover{
     border: 2px solid #1D9BF0;
-    color: #1D9BF0;
+    background: #1D9BF0;
+    color: #fff;
 }
 
 .forget-password {
@@ -214,8 +215,9 @@
 }
 
 .forget-password:hover {
-    border: 2px solid #e10e0e;
-    color: #e10e0e;
+    border: 2px solid #000000;
+    background: #000000;
+    color: #fff;
 }
 
 .login-popup p {
@@ -225,17 +227,17 @@
 }
 
 .login-popup a {
-    text-decoration: none;
-    color: #1D9BF0;
+    color: #000000;
     background: white;
 
+}
+
+.login-popup a:hover {
+    text-decoration: none;
+    color: #1D9BF0;
 }
 
 .no-account {
     width: 300px;
     transform: translate(27%, 20%);
 }
-
-
-
-
