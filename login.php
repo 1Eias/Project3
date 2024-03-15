@@ -12,7 +12,7 @@
 <body>
 
 <div class="chirpify">
-    <img class="deco" src="images/twitter-background-03.png" alt="">
+    <img id="blur2" class="deco" src="images/twitter-background-03.png" alt="">
 <div class="login-box" id="blur">
     <div class="login-content">
         <h1 class="chirpify-name">Chirpify</h1>
@@ -24,13 +24,17 @@
         <button type="submit" class="account-registration">Account aanmaken</button>
         <br>
         <h3>Heb je al een account?</h3>
-        <button type="submit" class="login" onclick="toggle()">Inloggen</button>
+        <button type="submit" class="login-button" onclick="toggle()">Inloggen</button>
     </div>
 </div>
     <script type="text/javascript">
         function toggle() {
             let blur = document.getElementById('blur')
             blur.classList.toggle('active')
+
+            let blur2 = document.getElementById('blur2')
+            blur2.classList.toggle('active')
+
             let popup = document.getElementById('popup')
             popup.classList.toggle('active')
         }

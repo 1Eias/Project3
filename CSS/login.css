@@ -1,7 +1,7 @@
 * {
     font-family: "Segoe UI", sans-serif;
-    color: white;
-    background: black;
+    color: black;
+    background: white;
 
 }
 
@@ -11,6 +11,10 @@
     height: 105%;
     margin-top: -16px;
     transform: translate(-5%);
+}
+
+.deco#blur2.active {
+    filter: blur(8px);
 }
 
 .chirpify-name {
@@ -64,14 +68,14 @@
     margin: 20px 0;
     border-radius: 30px;
     background: white;
-    border: 1px solid white;
+    border: 1px solid #575555;
     font-weight: 500;
     cursor: pointer;
 }
 
 .regi-google:hover {
-    background: #c4c4c4;
-    border: 1px solid #c4c4c4;
+    background: #e5e5e5;
+    border: 1px solid #575555;
 }
 
 .regi-apple {
@@ -84,15 +88,15 @@
     margin: 20px 0;
     border-radius: 30px;
     background: white;
-    border: 1px solid white;
+    border: 1px solid #575555;
     font-weight: 500;
     cursor: pointer;
     transform: translateY(-20%);
 }
 
 .regi-apple:hover {
-    background: #c4c4c4;
-    border: 1px solid #c4c4c4;
+    background: #e5e5e5;
+    border: 1px solid #575555;
 }
 
 .login-box hr {
@@ -104,8 +108,8 @@
 }
 
 .login-content span {
-    background: black;
-    color: #fff;
+    background: white;
+    color: #000000;
     padding: 5px;
     transform: translateY(-65%);
 }
@@ -122,23 +126,23 @@
 }
 
 .account-registration:hover {
-    background: #1669a1;
-    border: 2px solid #1669a1;
+    background: #1b82c7;
+    border: 2px solid #1b82c7;
 
 }
 
-.login {
+.login-button {
     background-color: transparent;
     padding: 5px;
     width: 250px;
     height: 40px;
-    border: 2px solid #fff;
-    color: white;
+    border: 2px solid #000000;
+    color: #000000;
     border-radius: 15px;
     font-weight: 700;
 }
 
-.login:hover {
+.login-button:hover {
     color: #1D9BF0;
     border: 2px solid #1D9BF0;
 }
