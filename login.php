@@ -10,10 +10,13 @@
     <title>Inloggen / Chirpify</title>
 </head>
 <body>
+
 <div class="chirpify">
+    <img class="deco" src="images/twitter-background-03.png" alt="">
 <div class="login-box" id="blur">
     <div class="login-content">
-        <h1 class="big-login">Nu registreren</h1>
+        <h1 class="chirpify-name">Chirpify</h1>
+        <h2 class="big-login">Nu registreren</h2>
         <button class="regi-google"><img src="images/google.png" alt="">Registeren met Google</button>
         <button class="regi-apple"><img src="images/apple.png" alt="">Registeren met Apple</button>
         <hr>
@@ -42,7 +45,7 @@
         </label>
         <br>
         <label for="password">
-        <input type="text" placeholder="Wachtwoord">
+        <input type="password" placeholder="Wachtwoord">
         </label>
         <br>
         <button class="login-account">Inloggen</button>

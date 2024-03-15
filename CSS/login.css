@@ -1,16 +1,39 @@
 * {
     font-family: "Segoe UI", sans-serif;
     color: white;
-    background-color: black;
+    background: black;
+
 }
 
-/* Log in */
+.deco {
+    background-position: left;
+    width: 750px;
+    height: 105%;
+    margin-top: -16px;
+    transform: translate(-5%);
+}
+
+.chirpify-name {
+    font-size: 40px;
+}
+
+.chirpify {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+/* Log in and Registration */
 
 .login-box {
     background: transparent;
     width: 450px;
     height: 550px;
-    transform: translate( 180%, 20%);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    transform: translate(10%,-05%);
 }
 
 .login-box#blur.active {
@@ -46,6 +69,11 @@
     cursor: pointer;
 }
 
+.regi-google:hover {
+    background: #c4c4c4;
+    border: 1px solid #c4c4c4;
+}
+
 .regi-apple {
     color: black;
     width: 270px;
@@ -62,18 +90,24 @@
     transform: translateY(-20%);
 }
 
+.regi-apple:hover {
+    background: #c4c4c4;
+    border: 1px solid #c4c4c4;
+}
+
 .login-box hr {
     border: 0 solid;
     height: 1px;
-    background: #c2c2c2;
-    margin: 5px;
+    background: #575555;
+    margin: 1px;
     width: 260px;
 }
 
 .login-content span {
     background: black;
+    color: #fff;
     padding: 5px;
-    transform: translateY(-80%);
+    transform: translateY(-65%);
 }
 
 .account-registration {
@@ -85,6 +119,12 @@
     border: 2px solid #1D9BF0;
     border-radius: 15px;
     font-weight: 700;
+}
+
+.account-registration:hover {
+    background: #1669a1;
+    border: 2px solid #1669a1;
+
 }
 
 .login {
@@ -102,6 +142,8 @@
     color: #1D9BF0;
     border: 2px solid #1D9BF0;
 }
+
+/*Login Popup*/
 
 .login-popup {
     border-radius: 10px;
@@ -178,6 +220,10 @@
     justify-content: center;
     align-items: center;
     transform: translateX(14%);
+}
+
+.login-popup input::placeholder {
+    color: black;
 }
 
 .login-popup input:hover{
