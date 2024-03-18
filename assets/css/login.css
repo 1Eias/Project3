@@ -1,0 +1,293 @@
+* {
+    font-family: "Segoe UI", sans-serif;
+    color: black;
+    background: white;
+
+}
+
+.deco {
+    background-position: left;
+    width: 750px;
+    height: 105%;
+    margin-top: -16px;
+    transform: translate(-5%);
+}
+
+.deco#blur2.active {
+    filter: blur(8px);
+}
+
+.chirpify-name {
+    font-size: 40px;
+}
+
+.chirpify {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+/* Log in and Registration */
+
+.login-box {
+    background: transparent;
+    width: 450px;
+    height: 550px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    transform: translate(10%,-05%);
+}
+
+.login-box#blur.active {
+    filter: blur(8px);
+}
+
+.login-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(0%);
+}
+
+.login-content button img {
+    background: transparent;
+    width: 18px;
+    margin-right: 10px;
+}
+
+.regi-google {
+    color: black;
+    width: 270px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    border-radius: 30px;
+    background: white;
+    border: 1px solid #575555;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.regi-google:hover {
+    background: #e5e5e5;
+    border: 1px solid #575555;
+}
+
+.regi-apple {
+    color: black;
+    width: 270px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    border-radius: 30px;
+    background: white;
+    border: 1px solid #575555;
+    font-weight: 500;
+    cursor: pointer;
+    transform: translateY(-20%);
+}
+
+.regi-apple:hover {
+    background: #e5e5e5;
+    border: 1px solid #575555;
+}
+
+.login-box hr {
+    border: 0 solid;
+    height: 1px;
+    background: #575555;
+    margin: 1px;
+    width: 260px;
+}
+
+.login-content span {
+    background: white;
+    color: #000000;
+    padding: 5px;
+    transform: translateY(-65%);
+}
+
+.account-registration {
+    color: white;
+    background-color: #1D9BF0;
+    padding: 5px;
+    width: 250px;
+    height: 40px;
+    border: 2px solid #1D9BF0;
+    border-radius: 15px;
+    font-weight: 700;
+}
+
+.account-registration:hover {
+    background: #1b82c7;
+    border: 2px solid #1b82c7;
+
+}
+
+.login-button {
+    background-color: transparent;
+    padding: 5px;
+    width: 250px;
+    height: 40px;
+    border: 2px solid #000000;
+    color: #000000;
+    border-radius: 15px;
+    font-weight: 700;
+}
+
+.login-button:hover {
+    color: #1D9BF0;
+    border: 2px solid #1D9BF0;
+}
+
+/*Login Popup*/
+
+.login-popup {
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    width: 410px;
+    padding: 30px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.login-popup .close-btn {
+    background: #ffffff;
+    color: black;
+    font-size: 22px;
+}
+
+#popup {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-40%);
+    width: 410px;
+    padding: 30px;
+    background: white;
+    visibility: hidden;
+    opacity: 1;
+    transition: 0.1s;
+}
+
+#popup.active {
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.login-popup .close-btn:hover {
+    color: #1D9BF0;
+}
+
+.login-popup-content, form{
+    background: transparent;
+    color: black;
+}
+
+.login-popup i {
+    background: white;
+    font-size: 35px;
+    font-weight: 600;
+    transform: translate(530%,-50%);
+    color: #1D9BF0;
+}
+
+.login-popup .chirp-login {
+    background: transparent;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+    margin-top: 5px;
+}
+
+.login-popup input {
+    color: black;
+    padding: 15px;
+    width: 280px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(14%);
+}
+
+.login-popup input::placeholder {
+    color: black;
+}
+
+.login-popup input:hover{
+    border: 2px solid #1D9BF0;
+}
+
+.login-account {
+    padding: 5px;
+    width: 250px;
+    height: 40px;
+    border: 2px solid black;
+    background: white;
+    color: black;
+    border-radius: 15px;
+    font-weight: 700;
+    transform: translateX(30%);
+}
+
+.login-account:hover{
+    border: 2px solid #1D9BF0;
+    background: #1D9BF0;
+    color: #fff;
+}
+
+.forget-password {
+    padding: 5px;
+    width: 250px;
+    height: 40px;
+    border: 2px solid black;
+    background: white;
+    color: black;
+    border-radius: 15px;
+    font-weight: 700;
+    transform: translateX(30%);
+}
+
+.forget-password:hover {
+    border: 2px solid #000000;
+    background: #000000;
+    color: #fff;
+}
+
+.login-popup p {
+    background: white;
+    color: black;
+
+}
+
+.login-popup a {
+    color: #000000;
+    background: white;
+
+}
+
+.login-popup a:hover {
+    text-decoration: none;
+    color: #1D9BF0;
+}
+
+.no-account {
+    width: 300px;
+    transform: translate(27%, 20%);
+}
