@@ -21,7 +21,7 @@
         <button class="regi-apple"><img src="images/apple.png" alt="">Registeren met Apple</button>
         <hr>
         <span>of</span>
-        <button type="submit" class="account-registration">Account aanmaken</button>
+        <button type="submit" class="account-registration" onclick="toggle1()">Account aanmaken</button>
         <br>
         <h3>Heb je al een account?</h3>
         <button type="submit" class="login-button" onclick="toggle()">Inloggen</button>
@@ -37,7 +37,16 @@
 
             let popup = document.getElementById('popup')
             popup.classList.toggle('active')
+
         }
+        function toggle1() {
+            let blur = document.getElementById('blur')
+            blur.classList.toggle('active')
+
+            let blur2 = document.getElementById('blur2')
+            blur2.classList.toggle('active')
+        }
+
     </script>
 <div class="login-popup" id="popup">
         <a href="login.php"><label for="" class="close-btn fa-solid fa-xmark"></label></a>
