@@ -30,7 +30,7 @@ $result = $conn->query($sql);
     <main>
       <section id="tweet-form">
         <h2>Compose Tweet</h2>
-        <form action="tweet.php" method="post">
+        <form action="handle/tweet.php" method="post">
           <input
             type="text"
             name="tweet_text"
