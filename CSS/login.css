@@ -147,6 +147,244 @@
     border: 2px solid #1D9BF0;
 }
 
+/*Registration Popup*/
+
+.registration-popup {
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    width: 410px;
+    padding: 30px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.registration-popup .close-btn1 {
+    background: #ffffff;
+    color: black;
+    font-size: 22px;
+}
+
+#popup2 {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-40%);
+    width: 413px;
+    padding: 30px;
+    background: white;
+    visibility: hidden;
+    opacity: 1;
+    transition: 0.1s;
+}
+
+#popup2.active {
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.registration-popup .close-btn1:hover {
+    color: #1D9BF0;
+}
+
+.registration-popup i {
+    background: white;
+    font-size: 25px;
+    font-weight: 600;
+    color: #1D9BF0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+    padding-bottom: 20px;
+    padding-top: -10px;
+}
+
+.registration-popup .chirp-regi {
+    background: transparent;
+    width: 471px;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+    margin-top: -15px;
+    padding-bottom: 13px;
+    border-bottom: 1px solid black;
+    transform: translateX(-6%);
+}
+
+.registration-popup .fname-lname {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transform: translateX(-1%);
+}
+
+.registration-popup .fname-input {
+    color: black;
+    padding: 15px;
+    width: 150px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    transform: translateX(-1%);
+}
+
+.registration-popup .fname-input:hover {
+    border: 2px solid #1D9BF0;
+}
+
+.registration-popup .lname-input {
+    color: black;
+    padding: 15px;
+    width: 150px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    transform: translateX(3%);
+}
+
+.registration-popup .lname-input:hover {
+    border: 2px solid #1D9BF0;
+}
+
+.registration-popup .mail-number-input {
+    color: black;
+    padding: 15px;
+    width: 350px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(3%);
+
+}
+
+.registration-popup .mail-number-input:hover {
+    border: 2px solid #1D9BF0;
+}
+
+.registration-popup .username-input {
+    color: black;
+    padding: 15px;
+    width: 350px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(3%);
+}
+
+.registration-popup .username-input:hover {
+    border: 2px solid #1D9BF0;
+}
+
+.registration-popup .password-input {
+    color: black;
+    padding: 15px;
+    width: 350px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(3%);
+}
+
+.registration-popup .password-input:hover {
+    border: 2px solid #1D9BF0;
+}
+
+.birthdate-text {
+    font-weight: 600;
+    transform: translateX(3%);
+}
+
+.birthdate {
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+    justify-content: center;
+    align-items: center;
+}
+
+.month {
+    color: black;
+    background: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    width: 120px;
+    transform: translateX(-1%);
+}
+
+.month:hover {
+    border: 2px solid #1D9BF0;
+}
+
+.days {
+    color: black;
+    background: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    width: 120px;
+}
+
+.days:hover {
+    border: 2px solid #1D9BF0;
+}
+
+.year {
+    color: black;
+    background: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    width: 100px;
+}
+
+.year:hover {
+    border: 2px solid #1D9BF0;
+}
+
+.register-account {
+    padding: 10px;
+    width: 250px;
+    height: 40px;
+    border: 2px solid black;
+    background: white;
+    color: black;
+    border-radius: 15px;
+    font-weight: 700;
+    transform: translateX(30%);
+}
+
+.register-account:hover {
+    border: 2px solid #000000;
+    background: #000000;
+    color: #fff;
+}
+
 /*Login Popup*/
 
 .login-popup {
